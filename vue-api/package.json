@@ -1,0 +1,30 @@
+{
+  "name": "vue-api",
+  "version": "1.0.1",
+  "description": "REST API for Vue",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "vuejs",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Yusuf Rizal H. <rizal@inixindo.co.id>",
+  "license": "INIX",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "stytch": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
